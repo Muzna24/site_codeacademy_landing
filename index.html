@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CA Company | Learning & Development</title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ========== HEADER & NAV ========== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav-logo">
+        <img src="images/CA_Logo.png" alt="CA Logo" class="logo-img">
+      </a>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link" data-i18n="homeNav">Home</a></li>
+        <li><a href="#about" class="nav-link" data-i18n="aboutNav">About Us</a></li>
+        <li><a href="#products" class="nav-link" data-i18n="productsNav">Our Products</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-link" data-i18n="servicesNav">Electronic Services <span class="arrow">▼</span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://casity.moodlecloud.com/login/index.php" data-i18n="lmsNav">LMS Platform</a></li>
+          </ul>
+        </li>
+        <li><a href="#founders" class="nav-link" data-i18n="foundersNav">Founders</a></li>
+        <li><a href="#contact" class="nav-link" data-i18n="contactNav">Contact Us</a></li>
+        <li class="nav-lang">
+          <button type="button" class="lang-btn active" data-lang="en">EN</button>
+          <span class="lang-sep">|</span>
+          <button type="button" class="lang-btn" data-lang="ar">العربية</button>
+        </li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="home">
+      <div class="hero-bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+      <div class="container hero-content">
+        <h1 class="hero-title animate-in">
+          <span class="gradient-text">Empowering Growth</span><br>Through Learning
+        </h1>
+        <p class="hero-subtitle animate-in delay-1">Your partner in professional development and innovative solutions.</p>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT THE COMPANY ========== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <h2 class="section-title" data-i18n="aboutTitle">About the Company</h2>
+        <div class="about-grid">
+          <div class="about-content">
+            <p class="about-text" data-i18n="aboutText">
+              We are a leading company dedicated to delivering excellence in training, e-learning, and professional development. With years of experience, we help organizations and individuals achieve their goals through innovative learning solutions and cutting-edge technology.
+            </p>
+          </div>
+          <div class="about-visual">
+            <div class="about-image-wrap">
+              <img src="images/About.png" alt="About us" class="about-image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== STATISTICS ========== -->
+    <section class="section stats" id="stats">
+      <div class="container">
+        <div class="stats-grid" data-animate="stats">
+          <div class="stat-card">
+            <div class="stat-number"><span class="count-up" data-count="15000">0</span><span class="plus">+</span></div>
+            <div class="stat-label" data-i18n="stat1Label">Participants on Competitions</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number"><span class="count-up" data-count="7">0</span><span class="plus">+</span></div>
+            <div class="stat-label" data-i18n="stat2Label">Abroad Courses</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number"><span class="count-up" data-count="4000">0</span><span class="plus">+</span></div>
+            <div class="stat-label" data-i18n="stat3Label">Trainers</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number"><span class="count-up" data-count="600">0</span><span class="plus">+</span></div>
+            <div class="stat-label" data-i18n="stat4Label">Training Programs</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== VISION, MISSION, VALUES ========== -->
+    <section class="section vmw" id="vmw">
+      <div class="container">
+        <h2 class="section-title" data-i18n="vmwTitle">Our Vision, Mission & Values</h2>
+        <div class="vmw-grid">
+          <article class="vmw-card card-1">
+            <div class="vmw-icon">◆</div>
+            <h3 data-i18n="visionTitle">Vision</h3>
+            <p data-i18n="visionText">To be the preferred partner for learning and development across the region, driving growth and excellence through innovation.</p>
+          </article>
+          <article class="vmw-card card-2">
+            <div class="vmw-icon">◇</div>
+            <h3 data-i18n="missionTitle">Mission</h3>
+            <p data-i18n="missionText">To deliver high-quality training programs, e-learning solutions, and consultancy services that transform organizations and empower individuals.</p>
+          </article>
+          <article class="vmw-card card-3">
+            <div class="vmw-icon">◈</div>
+            <h3 data-i18n="valuesTitle">Values</h3>
+            <p data-i18n="valuesText">Excellence, Integrity, Innovation, and Partnership. We build lasting relationships based on trust and measurable results.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== WHO BENEFITS (AUDIENCE / CLIENTS) ========== -->
+    <section class="section audience" id="audience">
+      <div class="container">
+        <h2 class="section-title" data-i18n="audienceTitle">Who Benefits From Our Services</h2>
+        <p class="section-subtitle" data-i18n="audienceSubtitle">We serve a wide range of clients who trust us for their learning and development needs.</p>
+        <div class="audience-grid">
+          <div class="audience-card">
+            <span class="audience-icon">🏛️</span>
+            <h4 data-i18n="audience1">Government & Ministries</h4>
+            <p data-i18n="audience1Desc">Custom training and capacity-building programs for public sector employees.</p>
+          </div>
+          <div class="audience-card">
+            <span class="audience-icon">🏢</span>
+            <h4 data-i18n="audience2">Private Sector</h4>
+            <p data-i18n="audience2Desc">Corporate training, leadership development, and e-learning platforms.</p>
+          </div>
+          <div class="audience-card">
+            <span class="audience-icon">🎓</span>
+            <h4 data-i18n="audience3">Educational Institutions</h4>
+            <p data-i18n="audience3Desc">LMS solutions, curriculum design, and faculty development.</p>
+          </div>
+          <div class="audience-card">
+            <span class="audience-icon">👤</span>
+            <h4 data-i18n="audience4">Individuals</h4>
+            <p data-i18n="audience4Desc">Professional certifications and skill-building courses for career growth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== COURSES ========== -->
+    <section class="section courses" id="courses">
+      <div class="container">
+        <h2 class="section-title" data-i18n="coursesTitle">Types of Courses We Provide</h2>
+        <div class="courses-grid">
+          <div class="course-card">
+            <div class="course-number">01</div>
+            <h4 data-i18n="course1">Leadership & Management</h4>
+            <p data-i18n="course1Desc">Strategic leadership, team management, and organizational development.</p>
+          </div>
+          <div class="course-card">
+            <div class="course-number">02</div>
+            <h4 data-i18n="course2">Professional Skills</h4>
+            <p data-i18n="course2Desc">Communication, project management, and soft skills training.</p>
+          </div>
+          <div class="course-card">
+            <div class="course-number">03</div>
+            <h4 data-i18n="course3">E-Learning & Digital</h4>
+            <p data-i18n="course3Desc">LMS implementation, instructional design, and digital literacy.</p>
+          </div>
+          <div class="course-card">
+            <div class="course-number">04</div>
+            <h4 data-i18n="course4">Custom Corporate Programs</h4>
+            <p data-i18n="course4Desc">Tailored training solutions designed for your organization's needs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PRODUCTS ========== -->
+    <section class="section products" id="products">
+      <div class="container">
+        <h2 class="section-title" data-i18n="productsTitle">Our Products</h2>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-icon">📚</div>
+            <h4 data-i18n="product1">Training Programs</h4>
+            <p data-i18n="product1Desc">Face-to-face and blended training programs for all levels.</p>
+          </div>
+          <div class="product-card">
+            <div class="product-icon">💻</div>
+            <h4 data-i18n="product2">E-Learning Solutions</h4>
+            <p data-i18n="product2Desc">Custom LMS, courses, and digital learning content.</p>
+          </div>
+          <div class="product-card">
+            <div class="product-icon">📋</div>
+            <h4 data-i18n="product3">Consultancy</h4>
+            <p data-i18n="product3Desc">Strategy, assessment, and capacity-building consultancy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== LMS (Electronic Services) ========== -->
+    <!-- <section class="section lms-section" id="lms">
+      <div class="container">
+        <h2 class="section-title" data-i18n="lmsTitle">Electronic Services — LMS Platform</h2>
+        <div class="lms-content">
+          <p class="lms-text" data-i18n="lmsText">
+            Our Learning Management System (LMS) platform enables organizations to deliver, track, and manage training online. Features include course management, assessments, reporting, and mobile access—all designed to scale with your needs.
+          </p>
+          <a href="#contact" class="btn btn-secondary" data-i18n="lmsCta">Request a Demo</a>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ========== Q & A ========== -->
+    <section class="section faq" id="faq">
+      <div class="container">
+        <h2 class="section-title" data-i18n="faqTitle">Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span data-i18n="faqQ1">What types of organizations do you work with?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faqA1">We work with government ministries, private companies, educational institutions, and individuals. Our solutions are tailored to each client's needs.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span data-i18n="faqQ2">Do you offer online and in-person training?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faqA2">Yes. We offer face-to-face, fully online, and blended programs. Our LMS platform supports remote learning and tracking.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span data-i18n="faqQ3">How can I get a demo of your LMS?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faqA3">Contact us through the form below or email us. We will schedule a personalized demo at your convenience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FOUNDERS ========== -->
+    <section class="section founders" id="founders">
+      <div class="container">
+        <h2 class="section-title" data-i18n="foundersTitle">Our Founders</h2>
+        <div class="founders-grid">
+          <div class="founder-card">
+            <div class="founder-image-wrap">
+              <img src="images/founder1.jpg" alt="Founder 1" class="founder-img" onerror="this.src='https://placehold.co/300x300/5E50A1/fff?text=Founder+1'">
+            </div>
+            <h3 class="founder-name">Ahmed Al-Hassan</h3>
+            <p class="founder-role" data-i18n="founder1Role">Co-Founder & CEO</p>
+            <p class="founder-bio" data-i18n="founder1Bio">20+ years in corporate training and e-learning. Former director of learning at major regional organizations. MBA, Harvard Business School.</p>
+          </div>
+          <div class="founder-card">
+            <div class="founder-image-wrap">
+              <img src="images/founder2.jpg" alt="Founder 2" class="founder-img" onerror="this.src='https://placehold.co/300x300/E94C7D/fff?text=Founder+2'">
+            </div>
+            <h3 class="founder-name">Sara Mohammed</h3>
+            <p class="founder-role" data-i18n="founder2Role">Co-Founder & COO</p>
+            <p class="founder-bio" data-i18n="founder2Bio">Expert in instructional design and LMS implementation. Previously led learning design for government and education sectors. PhD in Education Technology.</p>
+          </div>
+          <div class="founder-card">
+            <div class="founder-image-wrap">
+              <img src="images/founder2.jpg" alt="Founder 3" class="founder-img" onerror="this.src='https://placehold.co/300x300/E94C7D/fff?text=Founder+2'">
+            </div>
+            <h3 class="founder-name">Sara Mohammed</h3>
+            <p class="founder-role" data-i18n="founder2Role">Co-Founder & COO</p>
+            <p class="founder-bio" data-i18n="founder2Bio">Expert in instructional design and LMS implementation. Previously led learning design for government and education sectors. PhD in Education Technology.</p>
+          </div>
+          <div class="founder-card">
+            <div class="founder-image-wrap">
+              <img src="images/founder2.jpg" alt="Founder 4" class="founder-img" onerror="this.src='https://placehold.co/300x300/E94C7D/fff?text=Founder+2'">
+            </div>
+            <h3 class="founder-name">Sara Mohammed</h3>
+            <p class="founder-role" data-i18n="founder2Role">Co-Founder & COO</p>
+            <p class="founder-bio" data-i18n="founder2Bio">Expert in instructional design and LMS implementation. Previously led learning design for government and education sectors. PhD in Education Technology.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PARTNERS LOGOS (SPINNER / MARQUEE) ========== -->
+    <section class="section partners" id="partners">
+      <div class="container">
+        <h2 class="section-title" data-i18n="partnersTitle">Companies & Ministries We Work With</h2>
+        <div class="partners-track-wrap">
+          <div class="partners-track">
+            <div class="partner-logo"><img src="images/partners/2022-08-25_10_42_122690402-removebg-preview.png" alt="Partner"></div>
+            <div class="partner-logo"><img src="images/partners/2022120409473037215-removebg-preview.png" alt="Partner"></div>
+            <div class="partner-logo"><img src="images/partners/638410936381682717.png" alt="Partner"></div>
+            <div class="partner-logo"><img src="images/partners/638410938716020042.png" alt="Partner"></div>
+            <div class="partner-logo"><img src="images/partners/BankMuscat_logo-removebg-preview.png" alt="Bank Muscat"></div>
+            <div class="partner-logo"><img src="images/partners/Cl9thIMWAAACa3I-removebg-preview.png" alt="Partner"></div>
+            <div class="partner-logo"><img src="images/partners/hqdefault-removebg-preview.png" alt="Partner"></div>
+            <div class="partner-logo"><img src="images/partners/logo.png" alt="Partner"></div>
+            <div class="partner-logo"><img src="images/partners/moi988404056-removebg-preview.png" alt="Ministry"></div>
+            <div class="partner-logo"><img src="images/partners/oxy-logo.png" alt="Oxy"></div>
+            <div class="partner-logo"><img src="images/partners/PDO-3-removebg-preview.png" alt="PDO"></div>
+            <div class="partner-logo"><img src="images/partners/TRA-logo.png" alt="TRA"></div>
+            <div class="partner-logo"><img src="images/partners/وزارة_العمل-removebg-preview.png" alt="TRA"></div>
+            <div class="partner-logo"><img src="images/partners/جهاز_الضرائب__1_-removebg-preview.png" alt="TRA"></div>
+
+            <!-- Duplicate set for seamless marquee loop -->
+            <div class="partner-logo"><img src="images/partners/2022-08-25_10_42_122690402-removebg-preview.png" alt="Partner"></div>
+            <div class="partner-logo"><img src="images/partners/2022120409473037215-removebg-preview.png" alt="Partner"></div>
+            <div class="partner-logo"><img src="images/partners/638410936381682717.png" alt="Partner"></div>
+            <div class="partner-logo"><img src="images/partners/638410938716020042.png" alt="Partner"></div>
+            <div class="partner-logo"><img src="images/partners/BankMuscat_logo-removebg-preview.png" alt="Bank Muscat"></div>
+            <div class="partner-logo"><img src="images/partners/Cl9thIMWAAACa3I-removebg-preview.png" alt="Partner"></div>
+            <div class="partner-logo"><img src="images/partners/hqdefault-removebg-preview.png" alt="Partner"></div>
+            <div class="partner-logo"><img src="images/partners/logo.png" alt="Partner"></div>
+            <div class="partner-logo"><img src="images/partners/moi988404056-removebg-preview.png" alt="Ministry"></div>
+            <div class="partner-logo"><img src="images/partners/oxy-logo.png" alt="Oxy"></div>
+            <div class="partner-logo"><img src="images/partners/PDO-3-removebg-preview.png" alt="PDO"></div>
+            <div class="partner-logo"><img src="images/partners/TRA-logo.png" alt="TRA"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT US ========== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section-title" data-i18n="contactTitle">Contact Us</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="contact-label" data-i18n="contactEmailLabel">📧 Email</span>
+              <a href="mailto:info@cacompany.com">info@cacompany.com</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label" data-i18n="contactPhoneLabel">📞 Phone</span>
+              <a href="tel:+966500000000">+966 50 000 0000</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label" data-i18n="contactAddressLabel">📍 Address</span>
+              <span data-i18n="contactAddress">Riyadh, Kingdom of Saudi Arabia</span>
+            </div>
+          </div>
+          <div class="contact-map" aria-label="Company location map">
+            <iframe
+              title="Company Location"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7309.19776172483!2d58.183946!3d23.654532!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e8de3f31f4bc2b7%3A0x6594fd4ae5e3cdd6!2zQ29kZSBBY2FkZW15INij2YPYp9iv2YrZhdmK2Kkg2KfZhNio2LHZhdis2Kk!5e0!3m2!1sen!2som!4v1773297118322!5m2!1sen!2som"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <img src="images/CA_Logo.png" alt="CA" class="footer-logo">
+        <p class="footer-copy" data-i18n="footerCopy">© 2025 CA Company. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
