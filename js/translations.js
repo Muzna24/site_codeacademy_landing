@@ -22,61 +22,66 @@ var TRANSLATIONS = {
     //------ Nav --------
     homeNav: 'Home',
     aboutNav: 'About Us',
-    productsNav: 'Our Products',
+    productsNav: 'Our Services',
     servicesNav: 'Electronic Services',
     lmsNav: 'LMS Platform',
     foundersNav: 'Founders',
     contactNav: 'Contact Us',
+
+    //------ Hero ------
+    heroTitle: 'Code Academy',
+    heroSub: '__ We touch minds to lead __',
+    heroHock: 'We are excited to collaborate with you on a journey of innovation and excellence',
     // ----- About -----
-    aboutTitle: 'About the Company',
-    aboutText: 'We are a leading company dedicated to delivering excellence in training, e-learning, and professional development. With years of experience, we help organizations and individuals achieve their goals through innovative learning solutions and cutting-edge technology.',
+    aboutTitle: 'About the Academy',
+    aboutText: 'The Academy is proud of the experiences of its founders in the field of rehabilitation and training in various modern technologies related to the Fourth Industrial Revolution and the digital revolution, and in the field of scientific and professional advice related to the preparation of field studies for institutional and institutional transformation, institutional transformation and assessment, and numerical assessment. The Academy is proud of its societal initiatives in the field of disseminating technical knowledge and for being the first house of expertise of its kind in the field of programming competitions.',
 
     // ----- Statistics -----
     stat1Label: 'Participants on Competitions',
     stat2Label: 'Abroad Courses',
-    stat3Label: 'Trainers',
+    stat3Label: 'Trainees',
     stat4Label: 'Training Programs',
 
     // ----- Vision, Mission, Values -----
     vmwTitle: 'Our Vision, Mission & Values',
     visionTitle: 'Vision',
-    visionText: 'To be the preferred partner for learning and development across the region, driving growth and excellence through innovation.',
+    visionText: 'To be a leading institution in training and consultancy, shaping the future of the knowledge economy',
     missionTitle: 'Mission',
-    missionText: 'To deliver high-quality training programs, e-learning solutions, and consultancy services that transform organizations and empower individuals.',
+    missionText: 'Empowering individuals and organizations to harness modern science and technology for a better life',
     valuesTitle: 'Values',
-    valuesText: 'Excellence, Integrity, Innovation, and Partnership. We build lasting relationships based on trust and measurable results.',
+    valuesText: 'Ethical Foundation - Continuous Learning - Integrity - Partnership - Customer First',
 
     // ----- Audience / Who Benefits -----
     audienceTitle: 'Who Benefits From Our Services',
     audienceSubtitle: 'We serve a wide range of clients who trust us for their learning and development needs.',
-    audience1: 'Government & Ministries',
-    audience1Desc: 'Custom training and capacity-building programs for public sector employees.',
+    audience1: 'Governmental & Private Sectors',
+    audience1Desc: 'Corporate Training Programs for Capacity Building and Leadership Development',
     audience2: 'Private Sector',
-    audience2Desc: 'Corporate training, leadership development, and e-learning platforms.',
-    audience3: 'Educational Institutions',
-    audience3Desc: 'LMS solutions, curriculum design, and faculty development.',
+    audience2Desc: 'Corporate training, leadership development, and e-learning platforms',
+    audience3: 'University & School Students',
+    audience3Desc: 'Developing a qualified generation of youth to sharpen their skills and knowledge',
     audience4: 'Individuals',
-    audience4Desc: 'Professional certifications and skill-building courses for career growth.',
+    audience4Desc: 'Professional certifications and skill-building courses for career growth',
 
     // ----- Courses -----
     coursesTitle: 'Types of Courses We Provide',
     course1: 'Leadership & Management',
-    course1Desc: 'Strategic leadership, team management, and organizational development.',
+    course1Desc: 'Strategic leadership, team management, and organizational development',
     course2: 'Professional Skills',
-    course2Desc: 'Communication, project management, and soft skills training.',
-    course3: 'E-Learning & Digital',
-    course3Desc: 'LMS implementation, instructional design, and digital literacy.',
-    course4: 'Custom Corporate Programs',
-    course4Desc: "Tailored training solutions designed for your organization's needs.",
+    course2Desc: 'Communication, project management, and Technical skills training to master today’s job market',
+    course3: 'Languages',
+    course3Desc: 'Breaking barriers and building bridges through global linguistic proficiency',
+    course4: 'Professional Certifications',
+    course4Desc: "Your gateway to international accreditation and world-class professional standards",
 
     // ----- Products -----
-    productsTitle: 'Our Products',
+    productsTitle: 'Our Services',
     product1: 'Training Programs',
-    product1Desc: 'Face-to-face and blended training programs for all levels.',
-    product2: 'E-Learning Solutions',
-    product2Desc: 'Custom LMS, courses, and digital learning content.',
+    product1Desc: 'Face-to-face and blended training programs for all levels',
+    product2: 'Technical Solutions',
+    product2Desc: 'Developing custom websites and apps that adapt to evolving market needs',
     product3: 'Consultancy',
-    product3Desc: 'Strategy, assessment, and capacity-building consultancy.',
+    product3Desc: 'Expert consultancy in IT, Data Science, and the Knowledge Economy',
 
     // ----- LMS / Electronic Services -----
     lmsTitle: 'Electronic Services — LMS Platform',
@@ -100,14 +105,16 @@ var TRANSLATIONS = {
     founder2Bio: 'Expert in instructional design and LMS implementation. Previously led learning design for government and education sectors. PhD in Education Technology.',
 
     // ----- Partners -----
-    partnersTitle: 'Companies & Ministries We Work With',
+    partnersTitle: 'Our clients',
 
     // ----- Contact -----
     contactTitle: 'Contact Us',
     contactEmailLabel: '📧 Email',
+    contactEmail:'admin@codeacademy.om',
     contactPhoneLabel: '📞 Phone',
-    contactAddressLabel: '📍 Address',
-    contactAddress: 'Riyadh, Kingdom of Saudi Arabia',
+    contactPhone:'+968 9745 1004',
+    contactAddressLabel: '📍 Location',
+    contactAddress: 'Al Seeb - Muscat - Oman',
     contactNamePlaceholder: 'Your Name',
     contactEmailPlaceholder: 'Your Email',
     contactMessagePlaceholder: 'Your Message',
@@ -116,68 +123,74 @@ var TRANSLATIONS = {
     formThankYou: 'Thank you! We will get back to you soon.',
 
     // ----- Footer -----
-    footerCopy: '© 2025 CA Company. All rights reserved.'
+    footerCopy: '© 2026 Code Academy. All rights reserved.'
   },
 
   ar: {
     //------ Nav --------
     homeNav: 'الرئيسية',
     aboutNav: 'من نحن',
-    productsNav: 'منتجاتنا',
+    productsNav: 'خدماتنا',
     servicesNav: 'الخدمات الإلكترونية',
     lmsNav: 'منصة LMS',
     foundersNav: 'المؤسسون',
     contactNav: 'اتصل بنا',
+
+    //------ Hero ------
+    heroTitle: 'أكاديمية البرمجة',
+    heroSub: '__ نلامس العقول لتقود __',
+    heroHock: 'متحمسون لخوض تجربة تعاون معكم تجسد الابتكار والتميز',
+
     // ----- About -----
-    aboutTitle: 'عن الشركة',
-    aboutText: 'نحن شركة رائدة متخصصة في التميز في التدريب والتعلم الإلكتروني والتطوير المهني. بخبرة سنوات، نساعد المؤسسات والأفراد على تحقيق أهدافهم من خلال حلول تعليمية مبتكرة وتقنية متطورة.',
+    aboutTitle: 'عن الأكاديمية',
+    aboutText: 'تفخـر الأكاديميـة بخبـرات مؤسسيها فـي مجـال التأهيـل والتدريـب فـي مختلـف التقنيـات الحديثـة المرتبطـة بالثـورة الصناعيـة الرابعـة والثـورة الرقميـة ، وفـي مجـال الإستشـارات العلميـة والمهنيـة المتعلقة بإعـداد دراسات ميدانية للتحـول الرقمـي المؤسسي ، والتقييم الوظيفـي وإمتحانات القبـول الترقيـة ، وتقييـم المناهـج الدراسية للجامعـات والمـدارس وغيرهـا .. كمـا تفخـر الأكاديميـة بمبادراتهـا المجتمعيـة فـي مجـال نشـر المعرفـة التقنيـة وكونهـا بيـت الخبـرة الأول مـن نـوعـه فـي مجال مسابقات البرمجة',
 
     // ----- Statistics -----
     stat1Label: 'المشاركون في المسابقات',
     stat2Label: 'الدورات الخارجية',
-    stat3Label: 'المدربون',
+    stat3Label: 'المتدربون',
     stat4Label: 'البرامج التدريبية',
 
     // ----- Vision, Mission, Values -----
     vmwTitle: 'رؤيتنا ورسالتنا وقيمنا',
     visionTitle: 'الرؤية',
-    visionText: 'أن نكون الشريك المفضل للتعلم والتطوير في المنطقة، ودفع النمو والتميز من خلال الابتكار.',
+    visionText: 'أن نكون من المؤسسات الرائدة في التدريب والاستشارات المرتبطة باقتصاد المعرفة',
     missionTitle: 'الرسالة',
-    missionText: 'تقديم برامج تدريبية عالية الجودة وحلول التعلم الإلكتروني وخدمات استشارية تحول المؤسسات وتمكن الأفراد.',
+    missionText: 'تمكين الأفراد والمؤسسات للإستفادة من العلوم والتقنيات الحديثة من أجل حياة أفضل',
     valuesTitle: 'القيم',
-    valuesText: 'التميز والنزاهة والابتكار والشراكة. نبني علاقات دائمة قائمة على الثقة والنتائج القابلة للقياس.',
+    valuesText: 'التكوين الأخلاقي - التعليم المستمر - الأمانة - الشراكة - العميل أولاً',
 
     // ----- Audience / Who Benefits -----
     audienceTitle: 'من يستفيد من خدماتنا',
-    audienceSubtitle: 'نخدم مجموعة واسعة من العملاء الذين يثقون بنا لاحتياجات التعلم والتطوير.',
-    audience1: 'الحكومات والوزارات',
-    audience1Desc: 'برامج تدريب وبناء قدرات مخصصة لموظفي القطاع العام.',
+    audienceSubtitle: 'نخدم مجموعة واسعة من العملاء الذين يثقون بنا لاحتياجات التعلم والتطوير',
+    audience1: 'المؤسسات الحكومية والخاصة',
+    audience1Desc: 'برامج تدريب مؤسسي لبناء القدرات وتطوير المهارات القيادية',
     audience2: 'القطاع الخاص',
-    audience2Desc: 'التدريب المؤسسي وتطوير القيادة ومنصات التعلم الإلكتروني.',
-    audience3: 'المؤسسات التعليمية',
-    audience3Desc: 'حلول LMS وتصميم المناهج وتطوير أعضاء هيئة التدريس.',
+    audience2Desc: 'التدريب المؤسسي وتطوير القيادة ومنصات التعلم الإلكتروني',
+    audience3: 'طلبة الجامعات والمدارس',
+    audience3Desc: 'تطوير جيل مؤهل من الشباب والناشئة لصقل المهارات والمعرفة',
     audience4: 'الأفراد',
-    audience4Desc: 'الشهادات المهنية ودورات بناء المهارات لنمو المسيرة المهنية.',
+    audience4Desc: 'الشهادات المهنية ودورات بناء المهارات لنمو المسيرة المهنية',
 
     // ----- Courses -----
-    coursesTitle: 'أنواع الدورات التي نقدمها',
+    coursesTitle: 'مجالات التدريب والخدمات',
     course1: 'القيادة والإدارة',
-    course1Desc: 'القيادة الاستراتيجية وإدارة الفرق وتطوير المؤسسات.',
+    course1Desc: 'القيادة الاستراتيجية وإدارة الفرق وتطوير المؤسسات',
     course2: 'المهارات المهنية',
-    course2Desc: 'التواصل وإدارة المشاريع وتدريب المهارات الناعمة.',
-    course3: 'التعلم الإلكتروني والرقمي',
-    course3Desc: 'تنفيذ LMS والتصميم التعليمي والثقافة الرقمية.',
-    course4: 'برامج مؤسسية مخصصة',
-    course4Desc: 'حلول تدريبية مصممة خصيصاً لاحتياجات مؤسستك.',
+    course2Desc: 'التواصل وإدارة المشاريع وتدريب المهارات التقنية التي يتطلبها سوق العمل',
+    course3: 'الغات',
+    course3Desc: 'جسور تواصل بلا حدود؛ نمنحكم إتقان اللغات لفتح آفاق عالمية جديدة',
+    course4: 'شهادات احترافية',
+    course4Desc: 'بوابتكم للاعتماد الدولي؛ برامج متخصصة تؤهلك للحصول على أقوى الشهادات العالمية',
 
     // ----- Products -----
-    productsTitle: 'منتجاتنا',
-    product1: 'برامج التدريب',
-    product1Desc: 'برامج تدريبية وجهاً لوجه ومدمجة لجميع المستويات.',
-    product2: 'حلول التعلم الإلكتروني',
-    product2Desc: 'LMS مخصص ودورات ومحتوى تعليمي رقمي.',
-    product3: 'الاستشارات',
-    product3Desc: 'استشارات في الاستراتيجية والتقييم وبناء القدرات.',
+    productsTitle: 'خدماتنا',
+    product1: 'برامج تدريبية',
+    product1Desc: 'برامج تدريبية وجهاً لوجه ومدمجة لجميع المستويات',
+    product2: 'حلول تقنية',
+    product2Desc: 'تطوير مواقع وتطبيقات مبتكرة تلبي تطلعات السوق وتواكب متغيراته',
+    product3: 'استشارات',
+    product3Desc: 'استشارات متخصصة في تكنولوجيا المعلومات، وعلوم البيانات، واقتصاد المعرفة',
 
     // ----- LMS / Electronic Services -----
     lmsTitle: 'الخدمات الإلكترونية — منصة LMS',
@@ -201,14 +214,16 @@ var TRANSLATIONS = {
     founder2Bio: 'خبيرة في التصميم التعليمي وتنفيذ LMS. قادت سابقاً تصميم التعلم للقطاعات الحكومية والتعليم. دكتوراه في تكنولوجيا التعليم.',
 
     // ----- Partners -----
-    partnersTitle: 'الشركات والوزارات التي نعمل معها',
+    partnersTitle: 'عُملاؤنا',
 
     // ----- Contact -----
     contactTitle: 'اتصل بنا',
     contactEmailLabel: '📧 البريد الإلكتروني',
+    contactEmail:'admin@codeacademy.om',
     contactPhoneLabel: '📞 الهاتف',
-    contactAddressLabel: '📍 العنوان',
-    contactAddress: 'الرياض، المملكة العربية السعودية',
+    contactPhone:'+968 9745 1004',
+    contactAddressLabel: '📍 الموقع',
+    contactAddress: 'ولاية السيب - مسقط - سلطنة عُمان',
     contactNamePlaceholder: 'الاسم',
     contactEmailPlaceholder: 'البريد الإلكتروني',
     contactMessagePlaceholder: 'رسالتك',
@@ -217,7 +232,7 @@ var TRANSLATIONS = {
     formThankYou: 'شكراً! سنتواصل معك قريباً.',
 
     // ----- Footer -----
-    footerCopy: '© 2025 شركة CA. جميع الحقوق محفوظة.'
+    footerCopy: '© 2026 أكاديمية البرمجة. جميع الحقوق محفوظة.'
   }
 };
 

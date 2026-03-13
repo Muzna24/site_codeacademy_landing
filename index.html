@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CA Company | Learning & Development</title>
+  <title>Code Academy | Learning & Development</title>
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
   <!-- ========== HEADER & NAV ========== -->
@@ -20,14 +21,14 @@
       <ul class="nav-menu">
         <li><a href="#home" class="nav-link" data-i18n="homeNav">Home</a></li>
         <li><a href="#about" class="nav-link" data-i18n="aboutNav">About Us</a></li>
-        <li><a href="#products" class="nav-link" data-i18n="productsNav">Our Products</a></li>
+        <li><a href="#products" class="nav-link" data-i18n="productsNav">Our Services</a></li>
         <li class="nav-dropdown">
           <a href="#" class="nav-link" data-i18n="servicesNav">Electronic Services <span class="arrow">▼</span></a>
           <ul class="dropdown-menu">
             <li><a href="https://casity.moodlecloud.com/login/index.php" data-i18n="lmsNav">LMS Platform</a></li>
           </ul>
         </li>
-        <li><a href="#founders" class="nav-link" data-i18n="foundersNav">Founders</a></li>
+        <!-- <li><a href="#founders" class="nav-link" data-i18n="foundersNav">Founders</a></li> -->
         <li><a href="#contact" class="nav-link" data-i18n="contactNav">Contact Us</a></li>
         <li class="nav-lang">
           <button type="button" class="lang-btn active" data-lang="en">EN</button>
@@ -51,20 +52,22 @@
       </div>
       <div class="container hero-content">
         <h1 class="hero-title animate-in">
-          <span class="gradient-text">Empowering Growth</span><br>Through Learning
+          <span class="gradient-text" data-i18n="heroTitle">Code Academy</span>
+          <br><span class="slogin" data-i18n="heroSub">__ We touch minds to lead __</span>
         </h1>
-        <p class="hero-subtitle animate-in delay-1">Your partner in professional development and innovative solutions.</p>
+        <p class="hero-subtitle animate-in delay-1" data-i18n="heroHock">We are excited to collaborate with you on a journey of innovation and excellence</p>
       </div>
     </section>
 
     <!-- ========== ABOUT THE COMPANY ========== -->
     <section class="section about" id="about">
       <div class="container">
-        <h2 class="section-title" data-i18n="aboutTitle">About the Company</h2>
+        <h2 class="section-title" data-i18n="aboutTitle">About the Academy</h2>
         <div class="about-grid">
           <div class="about-content">
             <p class="about-text" data-i18n="aboutText">
-              We are a leading company dedicated to delivering excellence in training, e-learning, and professional development. With years of experience, we help organizations and individuals achieve their goals through innovative learning solutions and cutting-edge technology.
+              <!-- We are a leading company dedicated to delivering excellence in training, e-learning, and professional development. With years of experience, we help organizations and individuals achieve their goals through innovative learning solutions and cutting-edge technology. -->
+               The Academy is proud of the experiences of its founders in the field of rehabilitation and training in various modern technologies related to the Fourth Industrial Revolution and the digital revolution, and in the field of scientific and professional advice related to the preparation of field studies for institutional and institutional transformation, institutional transformation and assessment, and numerical assessment. The Academy is proud of its societal initiatives in the field of disseminating technical knowledge and for being the first house of expertise of its kind in the field of programming competitions.
             </p>
           </div>
           <div class="about-visual">
@@ -90,7 +93,7 @@
           </div>
           <div class="stat-card">
             <div class="stat-number"><span class="count-up" data-count="4000">0</span><span class="plus">+</span></div>
-            <div class="stat-label" data-i18n="stat3Label">Trainers</div>
+            <div class="stat-label" data-i18n="stat3Label">Trainees</div>
           </div>
           <div class="stat-card">
             <div class="stat-number"><span class="count-up" data-count="600">0</span><span class="plus">+</span></div>
@@ -106,19 +109,28 @@
         <h2 class="section-title" data-i18n="vmwTitle">Our Vision, Mission & Values</h2>
         <div class="vmw-grid">
           <article class="vmw-card card-1">
-            <div class="vmw-icon">◆</div>
+            <div class="vmw-icon">
+              <!-- ◆ -->
+               <i class="fa-solid fa-eye-low-vision"></i>
+            </div>
             <h3 data-i18n="visionTitle">Vision</h3>
-            <p data-i18n="visionText">To be the preferred partner for learning and development across the region, driving growth and excellence through innovation.</p>
+            <p data-i18n="visionText">To be a leading institution in training and consultancy, shaping the future of the knowledge economy</p>
           </article>
           <article class="vmw-card card-2">
-            <div class="vmw-icon">◇</div>
+            <div class="vmw-icon">
+              <!-- ◇ -->
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
             <h3 data-i18n="missionTitle">Mission</h3>
-            <p data-i18n="missionText">To deliver high-quality training programs, e-learning solutions, and consultancy services that transform organizations and empower individuals.</p>
+            <p data-i18n="missionText">Empowering individuals and organizations to harness modern science and technology for a better life</p>
           </article>
           <article class="vmw-card card-3">
-            <div class="vmw-icon">◈</div>
+            <div class="vmw-icon">
+              <!-- ◈ -->
+               <i class="fa-solid fa-gem"></i>
+            </div>
             <h3 data-i18n="valuesTitle">Values</h3>
-            <p data-i18n="valuesText">Excellence, Integrity, Innovation, and Partnership. We build lasting relationships based on trust and measurable results.</p>
+            <p data-i18n="valuesText">Ethical Foundation - Continuous Learning - Integrity - Partnership - Customer First</p>
           </article>
         </div>
       </div>
@@ -131,24 +143,33 @@
         <p class="section-subtitle" data-i18n="audienceSubtitle">We serve a wide range of clients who trust us for their learning and development needs.</p>
         <div class="audience-grid">
           <div class="audience-card">
-            <span class="audience-icon">🏛️</span>
-            <h4 data-i18n="audience1">Government & Ministries</h4>
-            <p data-i18n="audience1Desc">Custom training and capacity-building programs for public sector employees.</p>
+            <span class="audience-icon">
+              <!-- 🏛️ -->
+               <i class="fa-solid fa-building-columns" style="color: #5E50A1"></i>
+            </span>
+            <h4 data-i18n="audience1">Governmental & Private Sectors</h4>
+            <p data-i18n="audience1Desc">Corporate Training Programs for Capacity Building and Leadership Development</p>
           </div>
-          <div class="audience-card">
+          <!-- <div class="audience-card">
             <span class="audience-icon">🏢</span>
             <h4 data-i18n="audience2">Private Sector</h4>
-            <p data-i18n="audience2Desc">Corporate training, leadership development, and e-learning platforms.</p>
+            <p data-i18n="audience2Desc">Corporate training, leadership development, and Technical skills.</p>
+          </div> -->
+          <div class="audience-card">
+            <span class="audience-icon">
+              <!-- 🎓 -->
+               <i class="fa-solid fa-user-graduate" style="color: #5E50A1"></i>
+            </span>
+            <h4 data-i18n="audience3">University and School Students</h4>
+            <p data-i18n="audience3Desc">Developing a qualified generation of youth to sharpen their skills and knowledge</p>
           </div>
           <div class="audience-card">
-            <span class="audience-icon">🎓</span>
-            <h4 data-i18n="audience3">Educational Institutions</h4>
-            <p data-i18n="audience3Desc">LMS solutions, curriculum design, and faculty development.</p>
-          </div>
-          <div class="audience-card">
-            <span class="audience-icon">👤</span>
+            <span class="audience-icon">
+              <!-- 👤 -->
+               <i class="fa-solid fa-users" style="color: #5E50A1"></i>
+            </span>
             <h4 data-i18n="audience4">Individuals</h4>
-            <p data-i18n="audience4Desc">Professional certifications and skill-building courses for career growth.</p>
+            <p data-i18n="audience4Desc">Professional certifications and skill-building courses for career growth</p>
           </div>
         </div>
       </div>
@@ -162,22 +183,22 @@
           <div class="course-card">
             <div class="course-number">01</div>
             <h4 data-i18n="course1">Leadership & Management</h4>
-            <p data-i18n="course1Desc">Strategic leadership, team management, and organizational development.</p>
+            <p data-i18n="course1Desc">Strategic leadership, team management, and organizational development</p>
           </div>
           <div class="course-card">
             <div class="course-number">02</div>
             <h4 data-i18n="course2">Professional Skills</h4>
-            <p data-i18n="course2Desc">Communication, project management, and soft skills training.</p>
+            <p data-i18n="course2Desc">Communication, project management, and Technical skills training to master today’s job market</p>
           </div>
           <div class="course-card">
             <div class="course-number">03</div>
-            <h4 data-i18n="course3">E-Learning & Digital</h4>
-            <p data-i18n="course3Desc">LMS implementation, instructional design, and digital literacy.</p>
+            <h4 data-i18n="course3">Languages</h4>
+            <p data-i18n="course3Desc">Breaking barriers and building bridges through global linguistic proficiency</p>
           </div>
           <div class="course-card">
             <div class="course-number">04</div>
-            <h4 data-i18n="course4">Custom Corporate Programs</h4>
-            <p data-i18n="course4Desc">Tailored training solutions designed for your organization's needs.</p>
+            <h4 data-i18n="course4">Professional Certifications</h4>
+            <p data-i18n="course4Desc">Your gateway to international accreditation and world-class professional standards</p>
           </div>
         </div>
       </div>
@@ -191,17 +212,17 @@
           <div class="product-card">
             <div class="product-icon">📚</div>
             <h4 data-i18n="product1">Training Programs</h4>
-            <p data-i18n="product1Desc">Face-to-face and blended training programs for all levels.</p>
+            <p data-i18n="product1Desc">Face-to-face and blended training programs for all levels</p>
           </div>
           <div class="product-card">
             <div class="product-icon">💻</div>
-            <h4 data-i18n="product2">E-Learning Solutions</h4>
-            <p data-i18n="product2Desc">Custom LMS, courses, and digital learning content.</p>
+            <h4 data-i18n="product2">Technical Solutions</h4>
+            <p data-i18n="product2Desc">Developing custom websites and apps that adapt to evolving market needs</p>
           </div>
           <div class="product-card">
             <div class="product-icon">📋</div>
             <h4 data-i18n="product3">Consultancy</h4>
-            <p data-i18n="product3Desc">Strategy, assessment, and capacity-building consultancy.</p>
+            <p data-i18n="product3Desc">Expert consultancy in IT, Data Science, and the Knowledge Economy</p>
           </div>
         </div>
       </div>
@@ -221,7 +242,7 @@
     </section> -->
 
     <!-- ========== Q & A ========== -->
-    <section class="section faq" id="faq">
+    <!-- <section class="section faq" id="faq">
       <div class="container">
         <h2 class="section-title" data-i18n="faqTitle">Frequently Asked Questions</h2>
         <div class="faq-list">
@@ -254,10 +275,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- ========== FOUNDERS ========== -->
-    <section class="section founders" id="founders">
+    <!-- <section class="section founders" id="founders">
       <div class="container">
         <h2 class="section-title" data-i18n="foundersTitle">Our Founders</h2>
         <div class="founders-grid">
@@ -295,12 +316,12 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- ========== PARTNERS LOGOS (SPINNER / MARQUEE) ========== -->
     <section class="section partners" id="partners">
       <div class="container">
-        <h2 class="section-title" data-i18n="partnersTitle">Companies & Ministries We Work With</h2>
+        <h2 class="section-title" data-i18n="partnersTitle">Our clients</h2>
         <div class="partners-track-wrap">
           <div class="partners-track">
             <div class="partner-logo"><img src="images/partners/2022-08-25_10_42_122690402-removebg-preview.png" alt="Partner"></div>
@@ -344,15 +365,15 @@
           <div class="contact-info">
             <div class="contact-item">
               <span class="contact-label" data-i18n="contactEmailLabel">📧 Email</span>
-              <a href="mailto:info@cacompany.com">info@cacompany.com</a>
+              <a href="mailto:admin@codeacademy.om" data-i18n="contactEmail">admin@codeacademy.om</a>
             </div>
             <div class="contact-item">
               <span class="contact-label" data-i18n="contactPhoneLabel">📞 Phone</span>
-              <a href="tel:+966500000000">+966 50 000 0000</a>
+              <a href="tel:+96897451004" data-i18n="contactPhone">+968 9745 1004</a>
             </div>
             <div class="contact-item">
-              <span class="contact-label" data-i18n="contactAddressLabel">📍 Address</span>
-              <span data-i18n="contactAddress">Riyadh, Kingdom of Saudi Arabia</span>
+              <span class="contact-label" data-i18n="contactAddressLabel">📍 Lovation</span>
+              <span data-i18n="contactAddress">Al Seeb - Muscat - Oman</span>
             </div>
           </div>
           <div class="contact-map" aria-label="Company location map">
@@ -373,7 +394,7 @@
     <div class="container">
       <div class="footer-content">
         <img src="images/CA_Logo.png" alt="CA" class="footer-logo">
-        <p class="footer-copy" data-i18n="footerCopy">© 2025 CA Company. All rights reserved.</p>
+        <p class="footer-copy" data-i18n="footerCopy">© 2026 Code Academy. All rights reserved.</p>
       </div>
     </div>
   </footer>
