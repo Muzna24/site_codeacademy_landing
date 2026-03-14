@@ -583,9 +583,48 @@ body.rtl {
   color: var(--text-soft);
 }
 
-/* ========== COURSES ========== */
+/* ========== COURSES (coding-themed background) ========== */
 .courses {
+  position: relative;
   background: linear-gradient(180deg, var(--bg-soft) 0%, var(--bg) 100%);
+  overflow: hidden;
+}
+
+/* Subtle code-grid pattern */
+.courses::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(94, 80, 161, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(94, 80, 161, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Floating code brackets decoration */
+/* .courses::after {
+  content: '</>';
+  position: absolute;
+  right: 8%;
+  top: 15%;
+  font-size: clamp(4rem, 10vw, 8rem);
+  font-weight: 800;
+  color: rgba(94, 80, 161, 0.08);
+  font-family: 'Consolas', 'Monaco', monospace;
+  pointer-events: none;
+  z-index: 0;
+} */
+
+body.rtl .courses::after {
+  right: auto;
+  left: 8%;
+}
+
+.courses .container {
+  position: relative;
+  z-index: 1;
 }
 
 .courses-grid {
@@ -596,7 +635,8 @@ body.rtl {
 
 .course-card {
   padding: 2rem;
-  background: var(--white);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
   border-radius: 14px;
   border-left: 4px solid var(--yellow);
   transition: transform 0.3s, border-left-color 0.3s, box-shadow 0.3s;
@@ -831,6 +871,13 @@ body.rtl .faq-icon {
 }
 
 /* ========== PARTNERS (LOGO MARQUEE) ========== */
+/* Force LTR so marquee works in Arabic (RTL) mode */
+.partners,
+.partners-track-wrap,
+.partners-track {
+  direction: ltr;
+}
+
 .partners {
   padding: 4rem 0;
   overflow: hidden;
